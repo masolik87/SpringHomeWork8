@@ -1,4 +1,4 @@
-package ru.HomeWork8.HomeWork8.model;
+package ru.HomeWork11.HomeWork11.model;
 
 import java.util.Objects;
 

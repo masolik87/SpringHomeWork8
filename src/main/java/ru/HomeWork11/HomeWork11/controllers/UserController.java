@@ -1,7 +1,9 @@
-package ru.HomeWork8.HomeWork8.controllers;
+package ru.HomeWork11.HomeWork11.controllers;
 
-import ru.HomeWork8.HomeWork8.model.User;
-import ru.HomeWork8.HomeWork8.service.UserService;
+import io.micrometer.core.instrument.Counter;
+import io.micrometer.core.instrument.Metrics;
+import ru.HomeWork11.HomeWork11.model.User;
+import ru.HomeWork11.HomeWork11.service.UserService;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -13,6 +15,7 @@ import java.util.List;
 
 @Controller
 public class UserController {
+    private final Counter addCounter = Metrics.counter("add_count");
     private final UserService userService;
 
     public UserController(UserService userService) {
@@ -32,6 +35,7 @@ public class UserController {
 
     @PostMapping("/user-create")
     public String createUser(User user){
+        addCounter.increment();
         userService.saveUser(user);
         return "redirect:/users";
     }

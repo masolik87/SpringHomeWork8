@@ -1,13 +1,13 @@
-package ru.HomeWork8.HomeWork8;
+package ru.HomeWork11.HomeWork11;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class HomeWork8Application {
+public class HomeWork11Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HomeWork8Application.class, args);
+		SpringApplication.run(HomeWork11Application.class, args);
 	}
 
 }

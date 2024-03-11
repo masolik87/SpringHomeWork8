@@ -1,6 +1,6 @@
-package ru.HomeWork8.HomeWork8.repositories;
+package ru.HomeWork11.HomeWork11.repositories;
 
-import ru.HomeWork8.HomeWork8.model.User;
+import ru.HomeWork11.HomeWork11.model.User;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;

@@ -1,6 +1,6 @@
-package ru.HomeWork8.HomeWork8.configuration;
+package ru.HomeWork11.HomeWork11.configuration;
 
-import ru.HomeWork8.HomeWork8.aspects.LoggingAspect;
+import ru.HomeWork11.HomeWork11.aspects.LoggingAspect;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;

@@ -1,8 +1,8 @@
-package ru.HomeWork8.HomeWork8.service;
+package ru.HomeWork11.HomeWork11.service;
 
-import ru.HomeWork8.HomeWork8.aspects.TrackUserAction;
-import ru.HomeWork8.HomeWork8.model.User;
-import ru.HomeWork8.HomeWork8.repositories.UserRepository;
+import ru.HomeWork11.HomeWork11.model.User;
+import ru.HomeWork11.HomeWork11.repositories.UserRepository;
+import ru.HomeWork11.HomeWork11.aspects.TrackUserAction;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
